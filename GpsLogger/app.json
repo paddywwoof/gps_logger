@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "GPS Logger",
+    "slug": "GpsLogger",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.3",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.transcendentalfruit.gpslogger",
+      "buildNumber": "1.0.3"
+    },
+    "android": {
+      "package": "com.transcendentalfruit.gpslogger",
+      "versionCode": 3
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  },
+  "displayName": "GPS Logger",
+  "name": "GpsLogger"
+}
